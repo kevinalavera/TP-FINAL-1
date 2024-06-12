@@ -25,8 +25,6 @@ header{
     font-weight: 50;
     font-style:normal;
     font-size: 20px;
-    transition: background;
-    cursor: pointer;
 }
 .Nav a:hover{
     background: #FE853A;
@@ -69,6 +67,45 @@ h1.Primer_titulo{
 }
 
 
+.Interesados{
+    height: 400px;
+    display: flex;
+    
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.Gigante{
+    color: #344054;
+    font-size: 40px;
+    width: 40%;
+}
+
+.Recibo_mails{
+    margin: 10px 0px 0px 0px;
+}
+
+.FMail{
+    border-radius: 40px;
+    padding: 4% 380px;
+
+}
+
+.Clasificacion {
+    display: flex;
+    justify-content: space-around;
+    color: #344054;
+    font-size: small;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+}
+
+.Clasificacion p{
+    margin: 0px 60px;
+}
+
 div.Al_lado{
     display: flex;
     flex-direction: row;
@@ -78,16 +115,40 @@ div.Color_amarillo{
     color:#FE853A;
 }
 
+.Transicion{
+    border-radius: 20px 0px;
+    width: 100%;
+}
+
 footer{
     background-color: #222222;
     font-style: normal;
     color: #D8D8D8;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Contenedor_linea_divisoria{
+    padding: 40px;
+   
+}
+
+.Linea_divisoria{
+    height: 0.5px;
+	background-color: #30353F;
+    border-color: #3B475B;
+    border-radius: 40px;
+	width: 100%;
 }
 
 .EncabezadoF{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    padding: 60px;
+}
+
+.EncabezadoFT{
+    font-size: 40px;
 }
 
 .Informacion{
@@ -104,6 +165,7 @@ footer{
     width: 600px;
     text-align: justify;
     padding-top: 200px;
+    font-weight: 200px;
     flex:auto;
 }
 
@@ -119,6 +181,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 300px;
+    margin: 0px 30px 0px 100px;
     flex:initial;
 }
 
@@ -147,8 +210,14 @@ div.Color_naranja{
 .Fourth_Information{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    flex:initial;
+}
+
+.FormularioT{
+    padding: 0px 20px;
+}
+
+.FormularioD{
+    padding: 10px 40px;
 }
 
 .Formulario{
@@ -162,9 +231,22 @@ div.Color_naranja{
 }
 
 .Right{
-    padding-top: 30px;
+    padding: 0px 0px 30px 40px
 }
+
+.Otro{
+    padding: 0px 30px 0px 0px;
+    
+}
+
 .Terminos{
     display: flex;
-    padding-top: 30px;
 }
+
+.Terminos a{
+    color:white;
+    font-style: normal;
+    padding: 0px 10px;
+}
+
+

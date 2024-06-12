@@ -32,13 +32,14 @@ header{
 }
 
 .Hero{
-    background-color: #FFFFFF;
+    background-image: url('../img/Presentación.png');
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     height: 80vh;
-    padding: 50px;
     flex-wrap: wrap;
 }
 
@@ -46,24 +47,143 @@ header{
     background-color: #FFFFFF;
     border-radius: 40px;
     padding: 10px 30px;
+    margin-top: 40px;
 }
 
 h1.Primer_titulo{
     align-self: flex-start;
     font-size: 70px;
+    position: relative;
+    bottom: 150px;
 }
 
 .Casi_abajo{
     display: flex;
+    flex-direction: row;
+    width: 70%;
+    position: relative;
+    bottom: 140px;
     justify-content: space-between;
 }
 
 .Abajo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding: 30px 50px;
     border-radius: 40px;
+    background-color: hsl(20, 100%,70%);
+}
+
+.Abajo a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    font-family: "Arial", sans-serif;
+    font-weight: 50;
+    font-style:normal;
+    font-size: 20px;
+}
+
+.Abajo a:hover{
+    background: #FE853A;
+    border-radius: 40px;
+}
+
+.Cita{
+    width: 300px;
+    font-size: x-large;
+    
+}
+
+.años{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.Experiencia{
+    font-size: xx-large;
+}
+
+.bi-star-fill{
+    color: #FE853A;
+    size: 100px;
+}
+
+.fa-quote-left{
+    color: #344054;
+}
+
+.Contratame{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F2F4F7;
+    border-radius: 40px;
+    height: 900px;
+}
+
+.Imagen_irrelevante{
+    display: flex;
+    flex: initial;
+}
+.Imagen_irrelevante img{
+    height: 900px;
+}
+.El_porque{
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+}
+
+.Pregunta{
+    font-size: 60px;
+}
+
+.Respuesta{
+    color: #C7CCD4;
+    font-size: xx-large;
+    padding: 40px 0px;
+}
+
+.Puntuacion{
+    display: flex;
+    justify-content: center;
+}
+
+.Puntuacion p{
+    font-weight: bold;
+    margin: 20px 60px;
+}
+
+.PC{
+    color: #525E72;
+    font-size: xx-large;
+}
+
+.Contador{
+    font-size: 50px;
+}
+
+.Bot{
+    margin-top: 50px;
+    width: 50%;
+    height: 160px;
+    border-radius: 60px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #F2F4F7;
+}
+.Portfolio{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PortfolioT{
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
+    width: 100%;
 }
 
 .Testimonios{
@@ -77,12 +197,22 @@ h1.Primer_titulo{
     flex-flow: column wrap;
     align-items: center;
     color: #D8D8D8;
+    text-align: center;
     
 }
 
 .TestimoniosT{
     margin-top: 140px;
     font-size: xx-large;
+}
+
+.Todo button{
+    
+    padding: 10px 10px;
+    border-radius: 40px;
+    background-color: #FE853A;
+    color: white;
+    font-size: x-large;
 }
 
 .Estrujar{
@@ -138,6 +268,7 @@ div.Al_lado{
 
 div.Color_amarillo{
     color:#FE853A;
+    display: inline;
 }
 
 .Transicion{

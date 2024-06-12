@@ -3,7 +3,7 @@
     margin: 0%;
 }
 header{
-    padding: 10px;
+    padding: 10px ;
     border-radius:40px ;
     background-color: #151515;
 }
@@ -28,7 +28,52 @@ header{
     transition: background;
     cursor: pointer;
 }
-.Nav a:hover{
+a:hover{
     background: #FE853A;
     border-radius: 40px;
+}
+
+.Hero{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80vh;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.Hello{
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+
+h1.Primer_titulo{
+    align-self: flex-start;
+    font-size: 70px;
+}
+
+.Casi_abajo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-radius: 40px;
+}
+
+
+div.Al_lado{
+    display: flex;
+    flex-direction: row;
+}
+
+div.Color_amarillo{
+    color:#FE853A;
 }

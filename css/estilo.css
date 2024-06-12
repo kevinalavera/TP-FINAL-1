@@ -182,8 +182,22 @@ h1.Primer_titulo{
 .PortfolioT{
     display: flex;
     justify-content: space-evenly;
+    font-size: xx-large;
     height: 160px;
     width: 100%;
+}
+
+.PortfolioImg{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.PortfolioImg Img{
+    height: 390px;
+    width: 390px;
+    border-color: #D88B64;
+    border-style: double;
 }
 
 .Testimonios{

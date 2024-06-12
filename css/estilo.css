@@ -28,7 +28,7 @@ header{
     transition: background;
     cursor: pointer;
 }
-a:hover{
+.Nav a:hover{
     background: #FE853A;
     border-radius: 40px;
 }
@@ -76,4 +76,95 @@ div.Al_lado{
 
 div.Color_amarillo{
     color:#FE853A;
+}
+
+footer{
+    background-color: #222222;
+    font-style: normal;
+    color: #D8D8D8;
+}
+
+.EncabezadoF{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.Informacion{
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    
+}
+
+.First_Information{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    text-align: justify;
+    padding-top: 200px;
+    flex:auto;
+}
+
+.Logo2{
+    width: 200px;
+}
+
+.Iconos{
+    padding-top: 20px;
+}
+
+.Second_Informacion {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex:initial;
+}
+
+.Second_Informacion a{
+    text-decoration: none;
+    color: #D8D8D8;
+    padding: 10px 10px;
+    font-family: "Arial", sans-serif;
+}
+
+.Third_Informacion{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex:initial;
+}
+
+.Third_Informacion p{
+    padding-top: 20px;
+}
+
+div.Color_naranja{
+    color: #D88B64;
+}
+
+.Fourth_Information{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex:initial;
+}
+
+.Formulario{
+    border-radius: 20px;
+    padding:15px;
+}
+
+.Copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Right{
+    padding-top: 30px;
+}
+.Terminos{
+    display: flex;
+    padding-top: 30px;
 }

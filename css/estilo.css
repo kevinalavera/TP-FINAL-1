@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    padding: 10px;
+    border-radius:40px ;
+    background-color: #151515;
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+}
+.Logo_JCREA{
+    padding-top: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.Nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    font-family: "Arial", sans-serif;
+    font-weight: 50;
+    font-style:normal;
+    font-size: 20px;
+    transition: background;
+    cursor: pointer;
+}
+.Nav a:hover{
+    background: #FE853A;
+    border-radius: 40px;
+}

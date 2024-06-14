@@ -11,3 +11,6 @@ Para poder visualizar la página sólo tiene que clickear en el link que dejo [a
 
 ### Consideraciones del TP
 Se dejaron de lado 3 secciones y el para el hero tuve un problema con las imágenes que no pude solucionar. Algunos botones no se encuentran y el tp no es responsive.
+
+### Patch
+patch 1: funcionalidad añadida.

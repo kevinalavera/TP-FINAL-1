@@ -11,23 +11,23 @@
 <body>
     <script src="https://kit.fontawesome.com/dc4d25ad76.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <header>
+    <header id="Inicio">
         <section class="Header">
             <nav class="Nav">
-                <a href="">Página principal</a>
+                <a href="#Inicio">Inicio</a>
                 <a href="">Acerca de </a>
                 <a href="">Servicios</a>
                 <img src="img/Logo_JCREA.png" alt="Logo JCrea" class="Logo_JCREA">
-                <a href="">Resumen</a>
-                <a href="">Proyectos</a>
-                <a href="">Contacto</a>
+                <a href="#Resumen">Resumen</a>
+                <a href="#Proyectos">Proyectos</a>
+                <a href="#Contacto">Contacto</a>
             </nav>
         </section>
         
     </header>
     <main>
         <section>
-            <div class="Hero">
+            <div class="Hero" >
                 <div class="Arriba">
                     <button class="Hello">¡Hola!</button>
                 </div>
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </section>
-        <section class="Contratame">
+        <section id="Resumen" class="Contratame">
             <div class="Imagen_irrelevante">
                 <img src="img/Momentos.png" alt="Señalo con el cacho de dedo faltante">
             </div>
@@ -93,10 +93,12 @@
                 </div>
             </div>
         </section>
-        <section class="Portfolio">
+        <section class="Portfolio" id="Proyectos">
             <div class="PortfolioT"> 
                 <h2> Vamos a hechar un vistazo a mi <div class="Color_amarillo">Portfolio</div> </h2>
-                <div class="Todo"><button>Mirar Todo</button></div>
+                <div class="Todo">
+                    <button class="w3-button w3-round-xxlarge" href="https://github.com/kevinalavera">Mirar Todo</button>
+                </div>
                 
             </div>
             <div class="PortfolioImg">
@@ -115,11 +117,13 @@
         </section>
         <section class="Interesados">
             <div class="Gigante">
-                <h2>¿Tienes una Increíble Idea de Projecto? <div class="Color_amarillo">Vamos a Debatirlo</div> </h2>
+                <h2>¿Tienes una Increíble Idea de Proyecto? <div class="Color_amarillo">Vamos a Debatirlo</div> </h2>
             </div>
-            <div class="Recibo_mails">
+            <form action="https://formsubmit.co/f366a44fd5920142992da8cf51963c6d" method="POST" class="Recibo_mails">
                 <input placeholder="Correo Electrónico" type="email"  class="FMail">
-            </div>
+                <input class="btn" type="submit" value="Enviar">
+            </form>
+
             <div class="Al_lado Clasificacion">
                 <p><i class="fa-solid fa-list-check"></i> 5/5 Clasificación Promedio</p>
                 <p><i class="fa-solid fa-medal"></i> 0+ Premios Ganados</p>
@@ -130,13 +134,13 @@
             <img src="img/Transicion.png" alt="Habilidades" class="Transicion">
         </section>
     </main>
-    <footer>
+    <footer id="Contacto">
         <section class="EncabezadoF">
             <div class="EncabezadoFT">
                 <h2>Conectémonos</h2>
             </div>
-            <div class="EncabezadoFI">
-                <button>Contratar</button>
+            <div class="Todo">
+                <button class="w3-button w3-round-xxlarge" href="https://github.com/kevinalavera">Contrátame</button>
             </div>
         </section>
         <div class="Contenedor_linea_divisoria">
@@ -159,15 +163,15 @@
                 <div class="Color_naranja">
                     <h3>Navegación</h3>
                 </div>
-                <a href="">Home</a>
+                <a href="#Inicio">Inicio</a>
                 <a href="">Acerca de</a>
                 <a href="">Servicios</a>
-                <a href="">Resumen</a>
-                <a href="">Proyectos</a>
+                <a href="#Resumen">Resumen</a>
+                <a href="#Proyectos">Proyectos</a>
             </nav>
             <div class="Third_Informacion">
                 <div class="Color_naranja">
-                    <h3 >Contactanos</h3>
+                    <h3 >Contacto</h3>
                 </div>
                 <p>11 2743-5089</p>
                 <p>kevin.ala492@gmail.com</p>
@@ -177,9 +181,10 @@
                 <div class="Color_naranja FormularioT">
                     <h3>Consigue la última información</h3>
                 </div>
-                <div class="FormularioD">
+                <form action="https://formsubmit.co/f366a44fd5920142992da8cf51963c6d" method="POST" class="FormularioD">
                     <input placeholder="Correo Electrónico" type="email"  class="Formulario">
-                </div>
+                    <input class="btn" type="submit" value="Enviar">
+                </form>
             </div>
         </section>
         <div class="Contenedor_linea_divisoria">
@@ -190,7 +195,7 @@
                 <p>Copyright© 2024 Kevin. Todos los derechos reservados</p>
             </div>
             <div class="Otro">
-                <div class="Terminos"><a href="">Términos y Condiciones del usurario</a> <p> </p><p> | </p> <a href="">Políticas de Privacidad</a></div> 
+                <div class="Terminos"><a href="#">Términos y Condiciones del usurario</a> <p> | </p> <a href="#">Políticas de Privacidad</a></div> 
             </div>
         </section>
     </footer>
